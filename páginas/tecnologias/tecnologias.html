@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias</title>
+
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>-->
+    <link rel="stylesheet" href="css/corect.css   ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../configuracaogeral.css">
+    <link rel="stylesheet" href="../../querie_menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+    <body onresize="tela()">
+        <header>
+            <i class="fa-solid fa-bars"  id="i"  onclick ="menu()"></i>
+           <menu  id="manu">
+               <ul id="home">
+                   <li ><a href="../../index.html">Home</a> </li>
+                   <li><a href="../quem_sou/quem_sou.html">Quem sou</a> </li>
+                   <li id="querie"><a id="homepointer">Tecnologias</a></li>
+                   <li><a href="../projetos/projetos.html">Projetos</a></li>
+                   <li ><a href="../redes/redes.html">Redes</a></li>
+    
+               </ul>
+           </menu>
+       </header>
+        <main>
+            <div class="caixaprincipal swiper">
+                <div class="caixa_slide">
+                    <div class="lista_itens swiper-wrapper">
+                        <div class="items swiper-slide">
+                            <div  class="birbizinho"> <i class="fa-brands fa-html5"></i>  </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">HTML 5</button>
+                        </div>
+                        <div class="items swiper-slide">
+                            <div  class="birbizinho"> <i class="fa-brands fa-css3-alt"></i>  </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">CSS 3</button>
+                        </div>
+                        <div class="items swiper-slide">
+                            <div  class="birbizinho"> <i class="fa-brands fa-js"></i> </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">JavaScript</button>
+                        </div>
+                        <div class="items swiper-slide">
+                           <div  class="birbizinho"><i class="fa-brands fa-python"></i>  </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">Python</button>
+                        </div>
+                        <div class="items swiper-slide">
+                          <div  class="birbizinho"> <i class="fa-brands fa-github"></i> </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">Github</button>
+                        </div>
+                        <div class="items swiper-slide">
+                           <div  class="birbizinho"><i class="fa-solid fa-database"></i> </div>
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis</p>
+                            <button class="botao">MySql</button>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination" id="paginacao"></div>
+                    <div id="setas" class="swiper-button-prev"></div>
+                    <div id="setas" class="swiper-button-next"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="../../queri.js"></script>
+
+
+     
+</html>

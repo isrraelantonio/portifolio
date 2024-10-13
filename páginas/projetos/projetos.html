@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Projeto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../configuracaogeral.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="../../querie_menu.css">
+  <link rel="stylesheet" href="mideaquerie.css">
+
+
+</head>
+
+<body onresize="tela()">
+    <header>
+        <i class="fa-solid fa-bars"  id="i"  onclick ="menu()"></i>
+       <menu  id="manu">
+           <ul id="home">
+               <li ><a href="../../index.html">Home</a> </li>
+               <li><a href="../quem_sou/quem_sou.html">Quem sou</a> </li>
+               <li><a href="../tecnologias/tecnologias.html">Tecnologias</a></li>
+               <li id="querie"><a id="homepointer" >Projetos</a></li>
+               <li><a href="../redes/redes.html">Redes</a></li>
+
+           </ul>
+       </menu>
+   </header>
+  <!-- Swiper -->
+  <div id="caixa_maior">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide menu">
+            <li id="menut">
+                <ul onclick="clicar('projeto1')"> Projeto login </ul>
+                <ul onclick="clicar('projeto2')"> Projeto android </ul>
+                <ul onclick="clicar('projeto3')"> Projeto cordel </ul>
+                <ul onclick="clicar('projeto4')"> Projeto portifólio </ul>
+      
+            </li>
+          </div>
+          <div class="swiper-slide content">
+            <div class="menu-button">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div id="conteudo">
+      
+            </div>
+            <div class="uso">
+                        <div class="desc1">
+                            <div id="desc" class="desc23">
+                                <div class="bloc">
+                                    <h2>Projeto login</h2>
+                                    <P>
+                                        sdkgfjçoisjpdfijgpwhrpiofhnwosnçrojo´wjowitwhifohnionvbpifhuighwiofhngjnvwjfnj
+                                    </P>
+                                    <p><i class="fa-brands fa-css3-alt"></i></p>
+                                </div>
+                            </div>
+                            <div  id="desc" class="desc2">
+                                <h2>Projeto android</h2>
+                                <P>
+                                    sdkgfjçoisjpdfijgpwhrpiofhnwosnçrojo´wjowitwhifohnionvbpifhuighwiofhngjnvwjfnj
+                                </P>
+                            </div >
+                            <div  id="desc" class="desc2">
+                                <h2>Projeto cordel moderno</h2>
+                                <P>
+                                    sdkgfjçoisjpdfijgpwhrpiofhnwosnçrojo´wjowitwhifohnionvbpifhuighwiofhngjnvwjfnj
+                                </P>
+                            </div>
+                            <div   id="desc" class="desc2">
+                                <h2>Projeto portifólio</h2>
+                                <P>
+                                    sdkgfjçoisjpdfijgpwhrpiofhnwosnçrojo´wjowitwhifohnionvbpifhuighwiofhngjnvwjfnj
+                                </P>
+                            </div>
+                        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+ 
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+   <script src="script.js"></script>
+   <script src="../../queri.js"></script>
+
+
+</body>
+
+</html>

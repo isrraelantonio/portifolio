@@ -1,0 +1,56 @@
+
+body{
+   background-image: url(../../imagens/3.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+}
+
+main{
+    width: 80%;
+    height: 500px;
+    margin: 30px auto 0px auto;
+    background-image: url(../../imagens/Title.png);
+    background-size: cover;
+    border-radius: 20px;
+    border: solid white;
+    display: flex;
+    align-items: center;
+}
+
+#section_sou{
+    background-image: url(../../imagens/tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 580px;
+    width: 450px;
+   margin: 10px auto auto auto;
+    display: flex;
+    border: solid white 3px;
+    border-radius: 30px;
+}
+
+#textosou{
+   background-color: #7DA3D2;
+   width: 76%;
+   height: 80%;
+   display: flex;
+   margin: auto auto auto auto;
+}
+
+iframe{
+   margin: auto auto auto auto;
+    width: 95%;
+    height: 95%;
+   
+}
+
+.puxar{
+    background-color: white;
+    height: 300px;
+    width: 470px;
+    margin: -400px auto 0px auto;
+    border-radius:30px;
+}
