@@ -17,15 +17,15 @@ body{
    width: 50%;
    float: right;
    display: block;
-   margin: -2% -9% 0px 0px;
+   margin: 1.5% -9% 0px 0px;
 }
 
 
 #imagem1  img{
     border-radius: 100%;
     align-content: center;
-    width: 500px;
-    height: 500px; 
+    width: 400px;
+    height: 400px; 
     box-shadow: rgba(235, 230, 230, 0.99) 5px 4px 1px;
 }
  
