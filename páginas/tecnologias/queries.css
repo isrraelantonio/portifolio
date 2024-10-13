@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+
+
+
+@media screen and (max-width: 993px) {
+
+    main{
+        min-height: 73vh;
+        display: flex;
+        align-items: center; /* sinto como se essa configuração alinhasse ao centro levando em consideração o topo e a base*/
+        justify-content: center;/* sinto como se essa configuração alinhasse ao centro levando em consideração os lados direito e esquerdo */
+       margin-top: 0px 0px 0px 0px;
+        
+    }
+
+}
