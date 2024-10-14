@@ -30,7 +30,7 @@ const swiper = new Swiper('.caixa_slide', {
         },
        
         1024: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 10,
         },
     }

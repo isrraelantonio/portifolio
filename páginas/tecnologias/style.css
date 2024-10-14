@@ -30,21 +30,20 @@ main{
 }
 
 .lista_itens .items{
-    
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:;
     user-select: none;
     padding: 20px;
     border-radius: 8px;
     background-color: rgba(225, 213, 230, 0.522);
     border: solid white 2px;
     backdrop-filter: blur(30px);
-
-
-
 }
+
+
 .lista_itens .items .birbizinho{
     height: 100px;
     width: 100px;
@@ -55,8 +54,13 @@ main{
     text-align: center;
 
 }
+.birbizinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 i{
-    margin: 15px;
+    margin: px;
     font-size: 4em;
     color: #03092A;
 }
@@ -76,6 +80,7 @@ i{
     cursor: pointer;
     background-color: #03092A;;
     color: white;
+    
    
 }
 .swiper-pagination-bullet-active{
