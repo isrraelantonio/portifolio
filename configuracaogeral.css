@@ -42,34 +42,35 @@ li{
 #homepointer{
     background-color: white;
     color:#03092a;
-    border: solid #0072ff;
+    border: solid white 4px;
 }
 li:not(:last-child){
     margin-right: 20px;
 }
 
 li{
-    background-color: #0072ff;
+   
     border: white solid 1px;
     border-radius: 10px;
+   
 
 }
 
 li a{
-    background-color: #0072ff;
     color: white;
     border: solid white;
-     margin: 0px 18px 0px 18px;
+     margin: 0px 20px 0px 20px;
      padding: 5px 20px 5px 20px;
      font-family: var(--font1);
      text-decoration: none;
      font-size: 1em;
      font-weight: bold;
+     
 }
 li a:hover{
     background-color: white;
     color:#03092a;
-    border: solid #0072ff;
+    border: solid white 2px;
     transition: 0.9s;
 }
 

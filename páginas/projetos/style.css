@@ -35,7 +35,6 @@ body{
 .swiper-slide {
   text-align: center;
   font-size: 18px;
- 
   justify-content: center;
   align-content: center;
   
@@ -112,7 +111,7 @@ body{
 #conteudo{
   background-image: url(../../imagens/login.jpeg);
    width: 700px;
-   height: 60%;
+   height: 45%;
    background-position: center center;
    background-size: cover; 
   
@@ -121,7 +120,7 @@ body{
 
 .uso{
   width: 700px;
-  height: 40%;
+  height: 55%;
   background-color: rgba(255, 255, 255, 0.223);
   overflow: hidden;
   border: white solid  1px;
@@ -160,8 +159,8 @@ padding: 5px;
 button{
   background-color: #03092A;
   border: solid 1px white;
- 
   padding: 5px;
+
 }
 button:hover{
   background-color: white;
